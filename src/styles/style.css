@@ -12,21 +12,128 @@
 
 /*edits*/
 
+/*largemonsters*/
+
+.largemonstersection{
+  width: 100%;
+  height: 100%;
+  background-color: #36393e;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.main{
+  max-width: 50%;
+  margin: 0 auto;
+  margin-left: 30%;
+  
+}
+
+.h1LM {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #7289da !important;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btnLM {
+  color: #ffffff !important;
+  padding: 0.8rem !important;
+  font-size: 14px !important;
+  text-transform: uppercase !important;
+  border-radius: 4px !important;
+  font-weight: 400 !important;
+  display: block !important;
+  width: 100% !important;
+  cursor: pointer !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  background: transparent !important;
+}
+
+.btnLM {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.btnLM:hover {
+  color: #7289da !important;
+  text-decoration: none;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: #424549 !important;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: #424549;
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+  
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+
+/*largemonsters end*/
+
+
 .bluetext{
   color: #7289da !important;
 }
 
-.landingcardpadding{
-  padding: 10 !important;
-
-}
-
-.landingcardcontent{
-  background-color: #36393e!important;
-  border: none !important;
-  height: 255px !important;
   
-}
 .pagebg{
   width: 100%;
   height: 100vh;

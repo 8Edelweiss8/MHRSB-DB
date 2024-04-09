@@ -1,4 +1,4 @@
-import { Nav, Navbar } from "react-bootstrap";
+
 import MHRlogo from "../assets/img/MHRlogo.jpg";
 
 const Header = () => {
@@ -8,14 +8,14 @@ const Header = () => {
         <div className="profile">
           <img src={MHRlogo} alt="" className="img-fluid rounded-circle" />
           <h1 className="text-light">
-            <a href="index.html">Monster Hunter Rise Sunbreak</a>
+            <a href="/App">Monster Hunter Rise Sunbreak</a>
           </h1>
         </div>
 
         <nav id="navbar" className="nav-menu navbar">
           <ul>
             <li>
-              <a href="#" className="nav-link scrollto active">
+              <a href="/App" className="nav-link scrollto active">
                 <i className="bx bx-home"></i> <span>Home</span>
               </a>
             </li>
@@ -25,7 +25,7 @@ const Header = () => {
                   <i className="bx bx-user"></i> <span>Monsters</span>
                 </a>
                 <div className="dropdown-content">
-                  <a href="#" className="btn">Large Monsters</a>
+                  <a href="/largemonsters" className="btn">Large Monsters</a>
                   <a href="#" className="btn">Small Monsters</a>
                   
                 </div>
